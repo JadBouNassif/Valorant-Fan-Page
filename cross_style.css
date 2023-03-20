@@ -21,8 +21,9 @@ header {
   padding: 1.05vw;
 }
 
-header img{
-  height: 4.203888597vw; width:7.514450867vw; 
+header img {
+  height: 4.203888597vw;
+  width: 7.514450867vw;
 }
 
 header div {
@@ -69,7 +70,9 @@ main li {
   height: 21.01944298vw;
   border-radius: 2.627430373vw;
   color: white;
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw -0.1050972149vw 0.1576458224vw black,
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+    0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+    0.1050972149vw -0.1050972149vw 0.1576458224vw black,
     -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
 }
 
@@ -104,11 +107,13 @@ section h2 {
   color: white;
   margin: 0;
   padding: 4.203888597vw;
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw -0.1050972149vw 0.1576458224vw black,
-  -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+    0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+    0.1050972149vw -0.1050972149vw 0.1576458224vw black,
+    -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
 }
 
-main img{
+main img {
   height: 13.13715187vw;
   width: 13.715187vw;
 }

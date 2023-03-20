@@ -21,7 +21,12 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.050972149238045272312547240289859473705291748046875vw;
+}
+
+header img {
+  height: 4.203888597vw;
+  width: 7.514450867vw;
 }
 
 header div {
@@ -38,15 +43,15 @@ section.about div {
   justify-content: center;
   color: white;
   background-color: rgb(24, 30, 39);
-  padding-bottom: 30px;
-  line-height: 50px;
+  padding-bottom: 1.5764582239vw;
+  line-height: 2.627430373vw;
   text-align: center;
 }
 section.about h1 {
-  font-size: 50px;
+  font-size: 2.627430373vw;
   font-weight: bold;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 1.0509721492vw;
   text-align: center;
   color: white;
   background-color: rgb(24, 30, 39);
@@ -69,7 +74,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 40px;
+  padding-left: 2.1019442985vw;
 }
 
 footer {
@@ -90,46 +95,47 @@ footer h4 {
   align-items: center;
   background-image: url(Media/join\ background.png);
   background-repeat: no-repeat;
-  height: 300px;
+  height: 15.7645822386vw;
   background-size: cover;
-  background-position: 0px -150px;
+  background-position: 0px -7.8822911193vw;
 }
 .about {
-  padding-top: 120px;
-  margin-top: -120px;
+  padding-top: 6.305832895428270745696863741613924503326416015625vw;
+  margin-top: -6.305832895428270745696863741613924503326416015625vw;
 }
 
 section.join h1 {
-  font-size: 50px;
+  font-size: 2.627430373vw;
   color: white;
   margin: 0;
-  text-shadow: -2px 2px 3px black, 2px 2px 3px black, 2px -2px 3px black,
-    -2px -2px 3px black;
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+  0.1050972149vw 0.1050972149vw 0.1576458224vw black,
+  0.1050972149vw -0.1050972149vw 0.1576458224vw black,
+  -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
 }
-
 section.gallery div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   color: white;
-  padding-bottom: 30px;
-  line-height: 50px;
+  padding-bottom: 1.5764582239vw;
+  line-height: 1.5764582239vw;
   text-align: center;
 }
 
 section.gallery {
-  padding-top: 121px;
+  padding-top: 6.35838150289017356442400341620668768882751464843750vw;
   background-image: url("Media/vct.jpeg");
   height: max-content;
   background-repeat: no-repeat;
   background-size: cover;
 }
 section.gallery h2 {
-  font-size: 30px;
+  font-size: 1.5764582239vw;
   font-weight: bold;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 1.0509721492vw;
   text-align: center;
   color: white;
 }
@@ -139,23 +145,23 @@ section.gallery li {
   align-items: center;
   flex-direction: column;
   background-color: #2d3d59;
-  width: 450px;
-  height: 350px;
-  border-radius: 80px;
+  width: 23.6468733579vw;
+  height: 18.3920126117vw;
+  border-radius: 4.2038885970vw;
 }
 section.gallery img {
-  margin-top: 40px;
-  border-radius: 60px;
+  margin-top: 2.1019442985vw;
+  border-radius: 3.1529164477vw;
 }
 
 section.gallery li:hover {
   background-color: #8889c4;
   transition: 300ms;
   border-style: solid;
-  border-width: 5px;
+  border-width: 0.2627430373vw;
   border-color: rgb(12, 24, 36);
-  text-shadow: -2px 2px 3px rgb(12, 24, 36), 2px 2px 3px rgb(12, 24, 36),
-    2px -2px 3px rgb(12, 24, 36), -2px -2px 3px rgb(12, 24, 36);
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw rgb(12, 24, 36), 0.1050972149vw 0.1050972149vw 0.1576458224vw rgb(12, 24, 36),
+  0.1050972149vw -0.1050972149vw 0.1576458224vw rgb(12, 24, 36), -0.1050972149vw -0.1050972149vw 0.1576458224vw rgb(12, 24, 36);
 }
 
 main ul {
@@ -164,4 +170,11 @@ main ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
+}
+
+#a{
+  width: 18.3920126117vw;
+}
+#b{
+  height:15.7645822386vw;
 }
