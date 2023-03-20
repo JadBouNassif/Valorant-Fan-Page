@@ -18,7 +18,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.05vw;
+}
+
+header img{
+  height: 4.203888597vw; width:7.514450867vw; 
 }
 
 header div {
@@ -44,7 +48,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 40px;
+  padding-left: 2.101944298vw;
 }
 main ul {
   width: 100%;
@@ -52,8 +56,8 @@ main ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 8.407777194vw;
+  margin-right: 8.407777194vw;
 }
 main li {
   display: flex;
@@ -61,12 +65,12 @@ main li {
   align-items: center;
   flex-direction: column;
   background-color: #2d3d59;
-  width: 300px;
-  height: 400px;
-  border-radius: 50px;
+  width: 15.76458224vw;
+  height: 21.01944298vw;
+  border-radius: 2.627430373vw;
   color: white;
-  text-shadow: -2px 2px 3px black, 2px 2px 3px black, 2px -2px 3px black,
-    -2px -2px 3px black;
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw -0.1050972149vw 0.1576458224vw black,
+    -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
 }
 
 main li:hover {
@@ -99,7 +103,12 @@ main {
 section h2 {
   color: white;
   margin: 0;
-  padding: 80px;
-  text-shadow: -2px 2px 3px black, 2px 2px 3px black, 2px -2px 3px black,
-    -2px -2px 3px black;
+  padding: 4.203888597vw;
+  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw 0.1050972149vw 0.1576458224vw black, 0.1050972149vw -0.1050972149vw 0.1576458224vw black,
+  -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
+}
+
+main img{
+  height: 13.13715187vw;
+  width: 13.715187vw;
 }
