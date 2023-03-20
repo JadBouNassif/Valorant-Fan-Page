@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: rgb(12, 24, 36);
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration-line: none;
+  color: white;
+}
+nav h3 :hover {
+  color: rgb(255, 81, 82);
+  font-size: larger;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  padding-left: 40px;
+}
+main ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+main li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2d3d59;
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
+  color: white;
+  text-shadow: -2px 2px 3px black, 2px 2px 3px black, 2px -2px 3px black,
+    -2px -2px 3px black;
+}
+
+main li:hover {
+  background-color: #a83c49;
+  transition: 150ms ease-in;
+}
+
+main div {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+}
+footer h4 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+main {
+  background-image: url(Media/crosshair\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  aspect-ratio: 16/7;
+}
+
+section h2 {
+  color: white;
+  margin: 0;
+  padding: 80px;
+  text-shadow: -2px 2px 3px black, 2px 2px 3px black, 2px -2px 3px black,
+    -2px -2px 3px black;
+}
