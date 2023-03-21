@@ -92,10 +92,15 @@ section.reyk div.summary h2 {
   animation-fill-mode: forwards;
 }
 
-section div {
+section.reyk div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 18em;
+}
+
+#first_element {
+  padding-top: 18em;
 }
 
 section.reyk div ul {
@@ -104,10 +109,6 @@ section.reyk div ul {
   margin: 0;
   justify-content: space-around;
   width: 40%;
-}
-
-br.faragh {
-  margin-bottom: 18em;
 }
 
 @keyframes fade_in {
