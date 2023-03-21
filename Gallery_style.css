@@ -8,6 +8,7 @@ html {
 body {
   margin: 0em;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.84077771939043610682773532971623353660106658935546875vw;
 }
 
 header {
@@ -21,12 +22,12 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1.050972149vw;
+  padding: 1.25em;
 }
 
 header img {
-  height: 4.203888597vw;
-  width: 7.514450867vw;
+  height: 5em;
+  width: 9em;
 }
 
 header div {
@@ -52,7 +53,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 2.101944298vw;
+  padding-left: 2.5em;
 }
 
 footer {
@@ -72,18 +73,18 @@ section.reyk {
 
 section.reyk div.summary {
   background-image: url(Media/reyk/01_VCT_2021_Masters_announcement.jpg);
-  height: 42.03888597vw;
+  height: 50em;
   background-size: cover;
   border-bottom: rgb(212, 249, 153);
   border-bottom-style: solid;
-  border-top-width: 0.5254860746vw;
+  border-top-width: 0.625em;
   align-items: center;
   text-align: center;
 }
 section.reyk div.summary h2 {
-  font-size: 2.101944298vw;
+  font-size: 2.10194429847609054462509448057971894741058349609375vw;
   margin-top: 10em;
-  width: 52.54860746vw;
+  width: 25em;
   font-weight: bold;
   color: rgb(212, 249, 153);
   animation: fade_in ease 3s;
@@ -106,7 +107,7 @@ section.reyk div ul {
 }
 
 br.faragh {
-  margin-bottom: 15.13399895vw;
+  margin-bottom: 18em;
 }
 
 @keyframes fade_in {
@@ -123,7 +124,7 @@ br.faragh {
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 1s;
-  font-size: 2.101944298vw;
+  font-size: 2.10194429847609054462509448057971894741058349609375vw;
   font-weight: bold;
   color: rgb(212, 249, 153);
   text-align: center;
@@ -133,16 +134,16 @@ br.faragh {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  font-size: 2.101944298vw;
+  font-size: 2.10194429847609054462509448057971894741058349609375vw;
   font-weight: bold;
   color: rgb(212, 249, 153);
   text-align: center;
 }
 
-#a{
-  height: 10.50972149vw;
+#a {
+  height: 5em;
 }
 
-#b{
-  height: 21.01944298vw;
+#b {
+  height: 10em;
 }

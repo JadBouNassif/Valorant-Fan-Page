@@ -5,6 +5,7 @@
 body {
   margin: 0em;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.84077771939043610682773532971623353660106658935546875vw;
 }
 
 header {
@@ -18,12 +19,12 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1.05vw;
+  padding: 1.25em;
 }
 
 header img {
-  height: 4.203888597vw;
-  width: 7.514450867vw;
+  height: 5em;
+  width: 9em;
 }
 
 header div {
@@ -49,7 +50,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 2.101944298vw;
+  padding-left: 2.5em;
 }
 main ul {
   width: 100%;
@@ -57,8 +58,8 @@ main ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin-left: 8.407777194vw;
-  margin-right: 8.407777194vw;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 main li {
   display: flex;
@@ -66,14 +67,12 @@ main li {
   align-items: center;
   flex-direction: column;
   background-color: #2d3d59;
-  width: 15.76458224vw;
-  height: 21.01944298vw;
-  border-radius: 2.627430373vw;
+  width: 18.75em;
+  height: 25em;
+  border-radius: 3.125em;
   color: white;
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-    0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-    0.1050972149vw -0.1050972149vw 0.1576458224vw black,
-    -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
+  text-shadow: -0.125em 0.125em 0.1875em black, 0.125em 0.125em 0.1875em black,
+    0.125em -0.125em 0.1875em black, -0.125em -0.125em 0.1875em black;
 }
 
 main li:hover {
@@ -106,14 +105,12 @@ main {
 section h2 {
   color: white;
   margin: 0;
-  padding: 4.203888597vw;
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-    0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-    0.1050972149vw -0.1050972149vw 0.1576458224vw black,
-    -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
+  padding: 5em;
+  text-shadow: -0.125em 0.125em 0.1875em black, 0.125em 0.125em 0.1875em black,
+    0.125em -0.125em 0.1875em black, -0.125em -0.125em 0.1875em black;
 }
 
 main img {
-  height: 13.13715187vw;
-  width: 13.715187vw;
+  height: 15.625em;
+  width: 16.25em;
 }

@@ -8,6 +8,7 @@ html {
 body {
   margin: 0em;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.84077771939043610682773532971623353660106658935546875vw;
 }
 
 header {
@@ -25,8 +26,8 @@ header {
 }
 
 header img {
-  height: 4.203888597vw;
-  width: 7.514450867vw;
+  height: 5em;
+  width: 9em;
 }
 
 header div {
@@ -44,14 +45,14 @@ section.about div {
   color: white;
   background-color: rgb(24, 30, 39);
   padding-bottom: 1.875em;
-  line-height: 2.627430373vw;
+  line-height: 3.125em;
   text-align: center;
 }
 section.about h1 {
-  font-size: 2.627430373vw;
+  font-size: 2.627430373095112958736763175693340599536895751953125vw;
   font-weight: bold;
   margin: 0;
-  padding-top: 1.25em;
+  padding-top: 0.4em;
   text-align: center;
   color: white;
   background-color: rgb(24, 30, 39);
@@ -74,7 +75,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 2.1019442985vw;
+  padding-left: 2.5em;
 }
 
 footer {
@@ -95,9 +96,9 @@ footer h4 {
   align-items: center;
   background-image: url(Media/join\ background.png);
   background-repeat: no-repeat;
-  height: 15.7645822386vw;
+  height: 18.75em;
   background-size: cover;
-  background-position: 0px -7.8822911193vw;
+  background-position: 0px -9.375em;
 }
 .about {
   padding-top: 7.4em;
@@ -105,13 +106,11 @@ footer h4 {
 }
 
 section.join h1 {
-  font-size: 2.627430373vw;
+  font-size: 2.627430373095112958736763175693340599536895751953125vw;
   color: white;
   margin: 0;
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-  0.1050972149vw 0.1050972149vw 0.1576458224vw black,
-  0.1050972149vw -0.1050972149vw 0.1576458224vw black,
-  -0.1050972149vw -0.1050972149vw 0.1576458224vw black;
+  text-shadow: -0.04em 0.04em 0.06em black, 0.04em 0.04em 0.06em black,
+    0.04em -0.04em 0.06em black, -0.04em -0.04em 0.06em black;
 }
 section.gallery div {
   display: flex;
@@ -120,7 +119,7 @@ section.gallery div {
   justify-content: center;
   color: white;
   padding-bottom: 1.875em;
-  line-height: 1.5764582239vw;
+  line-height: 1.875em;
   text-align: center;
 }
 
@@ -132,10 +131,10 @@ section.gallery {
   background-size: cover;
 }
 section.gallery h2 {
-  font-size: 1.5764582239vw;
+  font-size: 1.57645822385706768642421593540348112583160400390625vw;
   font-weight: bold;
   margin: 0;
-  padding-top: 1.25em;
+  padding-top: 0.6666666em;
   text-align: center;
   color: white;
 }
@@ -145,23 +144,25 @@ section.gallery li {
   align-items: center;
   flex-direction: column;
   background-color: #2d3d59;
-  width: 23.6468733579vw;
-  height: 18.3920126117vw;
-  border-radius: 4.2038885970vw;
+  width: 28.125em;
+  height: 21.875em;
+  border-radius: 5em;
 }
 section.gallery img {
   margin-top: 2.5em;
-  border-radius: 3.1529164477vw;
+  border-radius: 3.75em;
 }
 
 section.gallery li:hover {
   background-color: #8889c4;
   transition: 300ms;
   border-style: solid;
-  border-width: 0.2627430373vw;
+  border-width: 0.3125em;
   border-color: rgb(12, 24, 36);
-  text-shadow: -0.1050972149vw 0.1050972149vw 0.1576458224vw rgb(12, 24, 36), 0.1050972149vw 0.1050972149vw 0.1576458224vw rgb(12, 24, 36),
-  0.1050972149vw -0.1050972149vw 0.1576458224vw rgb(12, 24, 36), -0.1050972149vw -0.1050972149vw 0.1576458224vw rgb(12, 24, 36);
+  text-shadow: -0.125em 0.125em 0.1875em rgb(12, 24, 36),
+    0.125em 0.125em 0.1875em rgb(12, 24, 36),
+    0.125em -0.125em 0.1875em rgb(12, 24, 36),
+    -0.125em -0.125em 0.1875em rgb(12, 24, 36);
 }
 
 main ul {
@@ -172,9 +173,9 @@ main ul {
   padding: 0;
 }
 
-#a{
-  width: 18.3920126117vw;
+#a {
+  width: 21.875em;
 }
-#b{
-  height:15.7645822386vw;
+#b {
+  height: 18.75em;
 }
