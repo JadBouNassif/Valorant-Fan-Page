@@ -78,10 +78,26 @@ nav li {
   padding-left: 2.5em;
 }
 
+button {
+  background-color: #007bff;
+  height: 2.666em;
+  width: 6.666em;
+  border-radius: 0.333em;
+  border: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7882291119vw;
+  color: white;
+}
+
 footer {
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: rgb(196, 196, 196);
-  align-self: baseline;
+  background-color: #304146;
+  color: white;
 }
 
 footer h4 {
@@ -112,37 +128,35 @@ section.join h1 {
   text-shadow: -0.04em 0.04em 0.06em black, 0.04em 0.04em 0.06em black,
     0.04em -0.04em 0.06em black, -0.04em -0.04em 0.06em black;
 }
-section.gallery div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding-bottom: 1.875em;
-  line-height: 1.875em;
-  text-align: center;
-}
 
 section.gallery {
+  display: flex;
+  flex-direction: column;
   padding-top: 7.5em;
   background-image: url("Media/vct.jpeg");
   height: max-content;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  align-items: center;
 }
 section.gallery h2 {
   font-size: 1.57645822385706768642421593540348112583160400390625vw;
   font-weight: bold;
   margin: 0;
   padding-top: 0.6666666em;
+  padding-bottom: 1.1625em;
   text-align: center;
   color: white;
 }
-section.gallery li {
+div.img {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  line-height: 1.875em;
+  text-align: center;
   background-color: #2d3d59;
   width: 28.125em;
   height: 21.875em;
@@ -153,7 +167,7 @@ section.gallery img {
   border-radius: 3.75em;
 }
 
-section.gallery li:hover {
+div.img:hover {
   background-color: #8889c4;
   transition: 300ms;
   border-style: solid;
@@ -178,4 +192,13 @@ main ul {
 }
 #b {
   height: 18.75em;
+}
+
+section.gallery div.grid {
+  display: grid;
+  grid-template-rows: 21.875em 21.875em;
+  grid-template-columns: 28.3125em 28.3125em;
+  row-gap: 3.875em;
+  column-gap: 30.625em;
+  margin-bottom: 3em;
 }

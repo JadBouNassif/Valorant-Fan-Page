@@ -57,9 +57,13 @@ nav li {
 }
 
 footer {
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: rgb(196, 196, 196);
-  align-self: baseline;
+  background-color: #304146;
+  color: white;
 }
 
 footer h4 {

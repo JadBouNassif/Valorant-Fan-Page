@@ -85,9 +85,15 @@ main div {
 }
 
 footer {
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: rgb(196, 196, 196);
+  background-color: #304146;
+  color: white;
 }
+
 footer h4 {
   margin: 0;
   font-weight: lighter;
